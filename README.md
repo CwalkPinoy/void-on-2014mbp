@@ -1,5 +1,5 @@
 # void on 2014mbp
- quick fixes for 2014 macbook pro running linux
+ quick fixes for 2014 macbook pro running void xfce
 
 /etc/rc.local
 modprobe -r usbmouse
