@@ -7,8 +7,6 @@ modprobe -r usbmouse
 modprobe -r bcm5974
 modprobe bcm5974
 ```
-sudo xbps-install -S broadcom-wl-dkms
-
-sudo xbps-install -S linux6.13-headers
-
-sudo xbps-reconfigure -a
+```# xbps-install -S broadcom-wl-dkms
+# xbps-install -S linux6.13-headers
+# xbps-reconfigure -a```
