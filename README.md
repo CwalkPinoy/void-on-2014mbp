@@ -2,9 +2,13 @@
  quick fixes for 2014 macbook pro running void xfce
 
 /etc/rc.local
+
 modprobe -r usbmouse
-modprobe -r bcm5973
+
+modprobe -r bcm5974
+
 modprobe bcm5974
+
 
 sudo xbps-install -S broadcom-wl-dkms
 
