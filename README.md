@@ -3,7 +3,8 @@
 
 if mouse doesnt work in post-install use this
 
-```sudo vi /etc/modprobe.d/usbmouse.conf
+```
+sudo vi /etc/modprobe.d/usbmouse.conf
 blacklist usbmouse
 
 important: have a network switch on hand or a wire for ethernet (use a thunderbolt adapter) before booting
@@ -27,4 +28,5 @@ sudo reboot
 for bluetooth (with applet):
 
 sudo xbps-install -S bluez blueman
-launch blueman-applet in terminal, click yes to have it autostart```
+launch blueman-applet in terminal, click yes to have it autostart
+```
