@@ -1,9 +1,9 @@
 # void on 2014mbp
  quick fixes for 2014 macbook pro running void xfce
 
+```
 if mouse doesnt work in post-install use this
 
-```
 sudo vi /etc/modprobe.d/usbmouse.conf
 blacklist usbmouse
 
