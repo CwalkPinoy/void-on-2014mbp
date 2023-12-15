@@ -22,7 +22,7 @@ sudo xbps-install -S void-repo-nonfree
 sudo xbps-install -S
 sudo xbps-install -S broadcom-wl-dkms
 sudo xbps-install -Su
-sudo reboot```
+sudo reboot
 
 for bluetooth (with applet):
 
