@@ -28,5 +28,6 @@ sudo reboot
 for bluetooth (with applet):
 
 sudo xbps-install -S bluez blueman
+sudo ln -s /etc/sv/bluetoothd /var/service
 launch blueman-applet in terminal, click yes to have it autostart
 ```
